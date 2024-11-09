@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        // "outDir": "./dist",
+        // "rootDir": "./src",
+        // "lib": ["ESNext"],
+        // "target": "ESNext",
+        // "module": "NodeNext",
+        // "moduleResolution": "NodeNext",
+        // "strict": false,
+        // "sourceMap": true,
+        // "esModuleInterop": true,
+        // "declaration": true,
+        // "experimentalDecorators": true,
+        // "emitDecoratorMetadata": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+     //   "lib": ["ESNext"],
+        "target": "ES2016",
+        "module": "CommonJS",//"ESNext" //Modules
+       // "moduleResolution": "NodeNext",
+        "strict": false,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+        
+        
+    },
+   // "include": ["src/**/*.ts"]
+   "include": ["src/**/*.ts", "src/**/*.tsx", "src/__tests__/**/*.ts", "src/__tests__/**/*.tsx"],
+   "exclude": ["node_modules"]
+}
